@@ -3,9 +3,9 @@ import { navItems, siteContent } from "@/lib/site-content";
 
 const featuredNotes = ["Business cards", "Flyers", "Thank-you cards", "Posters"];
 const heroStats = [
-  { value: "01", label: "Signature style" },
+  { value: "01", label: "Print-first service" },
   { value: "24h", label: "Fast replies on WhatsApp" },
-  { value: "100%", label: "Custom layout direction" }
+  { value: "BYOD", label: "Bring your own design" }
 ];
 
 export function Hero() {

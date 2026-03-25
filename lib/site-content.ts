@@ -15,7 +15,7 @@ export type NavItem = {
   href: string;
 };
 
-const whatsappMessage = "Hello, I would like to enquire about design services from Zcreation.";
+const whatsappMessage = "Hello, I would like to enquire about print services from Zcreation.";
 
 export const navItems: NavItem[] = [
   { label: "Services", href: "#services" },
@@ -27,14 +27,14 @@ export const navItems: NavItem[] = [
 export const siteContent = {
   brand: {
     name: "Zcreation",
-    tagline: "Brings your business cards & flyers to life"
+    tagline: "Print that brings your ideas to life"
   },
   hero: {
-    kicker: "Custom print-ready design",
-    title: "Bring your cards, flyers, posters, and branded pieces to life.",
+    kicker: "Printed materials for business and events",
+    title: "Business cards, flyers, posters, and more, printed for the final result.",
     description:
-      "Zcreation designs bold promotional materials for businesses and personal brands, with a style that stands out in hand and on display.",
-    contactNote: "WhatsApp is the fastest way to get started."
+      "Zcreation focuses on printed materials for businesses, side hustles, and events. Bring your own design or request design as an optional add-on before print.",
+    contactNote: "WhatsApp is the fastest way to request a quote or place a print order."
   },
   contact: {
     phone: "0730204450",
@@ -44,28 +44,28 @@ export const siteContent = {
   services: [
     {
       title: "Business cards",
-      description: "Sharp card layouts built to make first impressions feel polished and memorable.",
+      description: "Business cards printed for a clean, professional first impression.",
       badge: "Popular"
     },
     {
       title: "Flyers",
-      description: "Promotional flyers designed for announcements, offers, launches, and events.",
-      badge: "Print-ready"
+      description: "Flyers for promotions, launches, announcements, and event handouts.",
+      badge: "High demand"
     },
     {
       title: "Thank-you cards",
-      description: "Branded inserts and appreciation cards for customer packaging and gifts.",
+      description: "Printed thank-you cards and inserts for packaging, gifting, and customer orders.",
       badge: "Customer touch"
     },
     {
       title: "Posters",
-      description: "Bold poster compositions for storefronts, promotions, community notices, and campaigns.",
+      description: "Posters for storefronts, campaigns, community notices, and promotional display.",
       badge: "High visibility"
     },
     {
-      title: "Custom requests",
-      description: "Need something beyond the standard list? Zcreation also handles tailored promotional design work.",
-      badge: "Custom"
+      title: "Design add-on",
+      description: "Already have a design? Send it through. Need one created first? Design can be added before print.",
+      badge: "Optional"
     }
   ] satisfies ServiceItem[],
   portfolioPreview: {
@@ -73,19 +73,19 @@ export const siteContent = {
     alt: "A collection of thank-you cards in different colors and styles"
   },
   about:
-    "Zcreation focuses on custom promotional materials that help small businesses, side hustles, and personal brands present themselves clearly. The work blends practical contact information with attention-grabbing layout, colour, and typography.",
+    "Zcreation is a print-focused business producing practical promotional materials for small businesses, side hustles, and events. Clients can supply their own artwork, and design support is available separately when needed before printing.",
   process: [
     {
-      title: "Share your idea",
-      description: "Send the business name, service details, colours, and contact information you want included."
+      title: "Send your print request",
+      description: "Share the item you need, the quantity, size, and either your ready-made design or the details for a design add-on."
     },
     {
-      title: "Approve the design",
-      description: "Review the concept, request changes if needed, and confirm the direction before final delivery."
+      title: "Confirm the details",
+      description: "Approve the print specs, and if design is needed, review and confirm the artwork before production."
     },
     {
-      title: "Receive your final design",
-      description: "Get a polished design you can use for printing, promotion, or online sharing."
+      title: "Receive the printed result",
+      description: "Collect the finished printed pieces, ready to hand out, package, display, or distribute."
     }
   ]
 };

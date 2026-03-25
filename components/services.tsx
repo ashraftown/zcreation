@@ -6,8 +6,8 @@ export function Services() {
     <section className="content-section services-section" id="services">
       <SectionHeading
         eyebrow="Services"
-        title="Print-ready design work with real promotional impact"
-        description="Zcreation creates custom visuals for everyday business marketing, event promotion, and branded handouts."
+        title="Printed materials for everyday business and event needs"
+        description="Zcreation prints business cards, flyers, posters, thank-you cards, and more. If you already have a design, send it through. If not, design can be added separately."
       />
       <div className="services-grid">
         {siteContent.services.map((service) => (

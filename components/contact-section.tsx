@@ -22,7 +22,7 @@ export function ContactSection() {
     const body = [
       `Name: ${formState.name}`,
       `Phone or Email: ${formState.contact}`,
-      `Service needed: ${formState.service}`,
+      `Print item needed: ${formState.service}`,
       "",
       "Message:",
       formState.message
@@ -36,7 +36,7 @@ export function ContactSection() {
       <div className="contact-intro">
         <SectionHeading
           eyebrow="Contact"
-          title="Start the conversation on WhatsApp, phone, email, or the enquiry form"
+          title="Request a print quote on WhatsApp, phone, email, or the enquiry form"
           description="The form opens your email app in this first release, so you can review and send the message directly."
         />
         <div className="contact-links">
@@ -74,7 +74,7 @@ export function ContactSection() {
           />
         </label>
         <label>
-          Service needed
+          Print item needed
           <input
             type="text"
             name="service"
