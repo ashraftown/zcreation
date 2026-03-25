@@ -176,6 +176,52 @@ img {
   color: var(--primary);
 }
 
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-width: 8.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(74, 41, 33, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 251, 246, 0.82);
+  color: #4d3f39;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-soft);
+}
+
+.menu-toggle-icon {
+  display: inline-grid;
+  gap: 0.24rem;
+}
+
+.menu-toggle-icon span {
+  display: block;
+  width: 1.1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.menu-toggle.is-open .menu-toggle-icon span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.menu-toggle.is-open .menu-toggle-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.is-open .menu-toggle-icon span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
 .hero-grid {
   position: relative;
   z-index: 1;
@@ -690,8 +736,13 @@ img {
 
   .topbar {
     display: grid;
-    justify-items: start;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
     padding-bottom: 2rem;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
   }
 
   .hero-copy {
@@ -707,19 +758,28 @@ img {
   }
 
   .site-nav {
+    display: none;
     width: 100%;
-    justify-content: flex-start;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    scrollbar-width: none;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+    padding: 0.55rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 251, 246, 0.92);
+    overflow: visible;
   }
 
-  .site-nav::-webkit-scrollbar {
-    display: none;
+  .site-nav.is-open {
+    display: grid;
   }
 
   .site-nav a {
-    white-space: nowrap;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
   }
 
   .hero-copy h1 {
@@ -757,6 +817,7 @@ img {
   }
 
   .topbar {
+    grid-template-columns: 1fr;
     gap: 0.85rem;
     padding-top: 0.75rem;
   }
@@ -780,18 +841,17 @@ img {
     font-size: 0.84rem;
   }
 
+  .menu-toggle {
+    width: 100%;
+  }
+
   .site-nav {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.45rem;
-    padding: 0.45rem;
-    overflow: visible;
+    grid-template-columns: 1fr;
   }
 
   .site-nav a {
-    padding: 0.7rem 0.75rem;
-    text-align: center;
-    white-space: normal;
+    justify-content: flex-start;
+    padding: 0.85rem 1rem;
   }
 
   .hero-copy h1 {
