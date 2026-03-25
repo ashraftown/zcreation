@@ -1,0 +1,23 @@
+<svg width="900" height="1350" viewBox="0 0 900 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1350" fill="url(#bg)"/>
+  <rect x="130" y="160" width="540" height="870" rx="18" transform="rotate(-6 130 160)" fill="#7187B2"/>
+  <path d="M194 234L600 192L636 440L230 482L194 234Z" fill="#2D6FD4"/>
+  <path d="M214 250L523 218L551 335L243 368L214 250Z" fill="#7AB0F1"/>
+  <text x="270" y="340" fill="white" font-family="Arial, sans-serif" font-size="64" font-weight="700">AK</text>
+  <text x="220" y="520" fill="white" font-family="Arial, sans-serif" font-size="88">PLUMBING</text>
+  <text x="215" y="610" fill="white" font-family="Arial, sans-serif" font-size="116" font-weight="700">SERVICES</text>
+  <text x="195" y="694" fill="#EEF3FF" font-family="Arial, sans-serif" font-size="44">Flowing Solutions You Can Trust.</text>
+  <rect x="190" y="765" width="480" height="88" rx="44" fill="#4A8CEC"/>
+  <text x="228" y="820" fill="white" font-family="Arial, sans-serif" font-size="28">Installations</text>
+  <text x="390" y="820" fill="white" font-family="Arial, sans-serif" font-size="28">Blocked Drains</text>
+  <text x="582" y="820" fill="white" font-family="Arial, sans-serif" font-size="28">Repairs</text>
+  <rect x="195" y="940" width="470" height="95" rx="16" fill="#2D6FD4"/>
+  <text x="245" y="995" fill="white" font-family="Arial, sans-serif" font-size="34">Call Number: 0737842774</text>
+  <text x="245" y="1045" fill="white" font-family="Arial, sans-serif" font-size="34">akplumbing@gmail.com</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0E6DA"/>
+      <stop offset="1" stop-color="#B7D1E7"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="900" height="1350" viewBox="0 0 900 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1350" fill="#5A3D28"/>
+  <rect x="130" y="100" width="640" height="500" rx="20" fill="#BCE6FF"/>
+  <rect x="160" y="640" width="640" height="500" rx="20" fill="#CFEAFF"/>
+  <path d="M130 430C280 360 470 360 770 470V600H130V430Z" fill="#5BB9F9"/>
+  <path d="M160 920C300 840 520 840 800 980V1140H160V920Z" fill="#5BB9F9"/>
+  <text x="220" y="205" fill="#0E4AA6" font-family="Impact, sans-serif" font-size="66">FAST&amp;CLEAN</text>
+  <text x="200" y="280" fill="#2C77D9" font-family="Impact, sans-serif" font-size="98">CARWASH</text>
+  <text x="180" y="352" fill="#17408D" font-family="Impact, sans-serif" font-size="52">DRIVE IN DIRTY</text>
+  <text x="156" y="410" fill="#17408D" font-family="Impact, sans-serif" font-size="52">DRIVE OUT SPARKLING</text>
+  <ellipse cx="470" cy="510" rx="170" ry="58" fill="#0E4DFF"/>
+  <rect x="335" y="415" width="260" height="90" rx="44" fill="#1853D8"/>
+  <circle cx="355" cy="510" r="42" fill="#31434F"/>
+  <circle cx="588" cy="510" r="42" fill="#31434F"/>
+  <text x="220" y="1050" fill="#0E4AA6" font-family="Impact, sans-serif" font-size="66">FAST&amp;CLEAN</text>
+  <text x="200" y="1125" fill="#2C77D9" font-family="Impact, sans-serif" font-size="98">CARWASH</text>
+  <ellipse cx="470" cy="1240" rx="170" ry="58" fill="#0E4DFF"/>
+  <rect x="335" y="1145" width="260" height="90" rx="44" fill="#1853D8"/>
+  <circle cx="355" cy="1240" r="42" fill="#31434F"/>
+  <circle cx="588" cy="1240" r="42" fill="#31434F"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#5B3D28"/>
+  <g transform="rotate(-9 280 240)">
+    <rect x="90" y="90" width="440" height="320" rx="18" fill="#6F407B"/>
+    <circle cx="300" cy="240" r="78" fill="#D7D7D9"/>
+    <text x="165" y="340" fill="white" font-family="Arial, sans-serif" font-size="54" font-weight="700">GET YOUR CAR</text>
+  </g>
+  <g transform="rotate(8 920 270)">
+    <rect x="700" y="100" width="380" height="330" rx="18" fill="#D5EDFF"/>
+    <text x="760" y="180" fill="#15459B" font-family="Impact, sans-serif" font-size="58">CARWASH</text>
+    <ellipse cx="890" cy="310" rx="120" ry="46" fill="#1550E0"/>
+  </g>
+  <g transform="rotate(-7 250 830)">
+    <rect x="80" y="650" width="460" height="360" rx="18" fill="#BBE7FF"/>
+    <text x="120" y="760" fill="#15459B" font-family="Impact, sans-serif" font-size="54">FAST&amp;CLEAN</text>
+    <ellipse cx="300" cy="890" rx="140" ry="50" fill="#1550E0"/>
+  </g>
+  <g transform="rotate(6 905 860)">
+    <rect x="680" y="640" width="420" height="340" rx="18" fill="#A8D7FF"/>
+    <rect x="760" y="760" width="180" height="110" rx="14" fill="#FFD74C"/>
+    <text x="725" y="730" fill="#0E4AA6" font-family="Arial, sans-serif" font-size="52" font-weight="700">CLEAN SCENE</text>
+    <text x="745" y="800" fill="#0E4AA6" font-family="Arial, sans-serif" font-size="52" font-weight="700">SERVICES</text>
+  </g>
+</svg>

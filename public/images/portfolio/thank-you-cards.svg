@@ -1,0 +1,30 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="30" fill="#5E3B28"/>
+  <g transform="rotate(-16 260 230)">
+    <rect x="110" y="80" width="500" height="310" rx="18" fill="#FFF7EB"/>
+    <text x="220" y="205" fill="#B28B2E" font-family="Georgia, serif" font-size="78" font-style="italic">Thank You</text>
+    <path d="M190 240H510" stroke="#D4B24F" stroke-width="6"/>
+  </g>
+  <g transform="rotate(13 900 230)">
+    <rect x="660" y="110" width="390" height="300" rx="18" fill="#0B0B0D"/>
+    <rect x="692" y="142" width="326" height="236" rx="8" stroke="#E9C971" stroke-width="10"/>
+    <text x="780" y="235" fill="#F2D58B" font-family="Georgia, serif" font-size="72" font-style="italic">Thank</text>
+    <text x="825" y="310" fill="#F2D58B" font-family="Georgia, serif" font-size="90" font-style="italic">You</text>
+  </g>
+  <g transform="rotate(-10 340 700)">
+    <rect x="160" y="560" width="470" height="310" rx="18" fill="#A67AD6"/>
+    <text x="290" y="725" fill="#FDECFB" font-family="Brush Script MT, cursive" font-size="102">Thank</text>
+    <text x="330" y="805" fill="#FDECFB" font-family="Brush Script MT, cursive" font-size="102">You</text>
+  </g>
+  <g transform="rotate(9 860 770)">
+    <rect x="670" y="600" width="400" height="280" rx="18" fill="#E6005C"/>
+    <rect x="700" y="630" width="340" height="220" rx="8" stroke="#1A0D12" stroke-width="8"/>
+    <text x="785" y="735" fill="#130A0D" font-family="Brush Script MT, cursive" font-size="96">Thank</text>
+    <text x="820" y="812" fill="#130A0D" font-family="Brush Script MT, cursive" font-size="96">You</text>
+  </g>
+  <g transform="rotate(-6 500 1020)">
+    <rect x="270" y="910" width="450" height="250" rx="18" fill="#FFF6EC"/>
+    <text x="390" y="1030" fill="#C9B8BB" font-family="Brush Script MT, cursive" font-size="96">Thank</text>
+    <text x="425" y="1100" fill="#C9B8BB" font-family="Brush Script MT, cursive" font-size="96">You</text>
+  </g>
+</svg>

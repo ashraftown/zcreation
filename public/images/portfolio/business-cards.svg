@@ -1,0 +1,26 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#E9C790"/>
+  <g transform="rotate(-10 270 220)">
+    <rect x="90" y="110" width="410" height="230" rx="18" fill="#CFEAFF"/>
+    <circle cx="270" cy="226" r="62" fill="#0E4DFF"/>
+    <text x="168" y="180" fill="#0E4AA6" font-family="Impact, sans-serif" font-size="44">FAST&amp;CLEAN</text>
+    <text x="150" y="315" fill="#17408D" font-family="Impact, sans-serif" font-size="38">DRIVE OUT SPARKLING</text>
+  </g>
+  <g transform="rotate(5 760 250)">
+    <rect x="580" y="130" width="420" height="230" rx="18" fill="#65386F"/>
+    <text x="650" y="240" fill="white" font-family="Georgia, serif" font-size="56" font-weight="700">CAR</text>
+    <text x="645" y="305" fill="white" font-family="Georgia, serif" font-size="56" font-weight="700">INSURANCE</text>
+  </g>
+  <g transform="rotate(-6 430 610)">
+    <rect x="170" y="480" width="440" height="250" rx="18" fill="#0B0B0D"/>
+    <rect x="200" y="512" width="380" height="186" rx="8" stroke="white" stroke-width="8"/>
+    <text x="250" y="615" fill="white" font-family="Georgia, serif" font-size="54" font-weight="700">You Nique</text>
+    <text x="265" y="680" fill="white" font-family="Georgia, serif" font-size="54" font-weight="700">Hair Salon</text>
+  </g>
+  <g transform="rotate(9 970 650)">
+    <rect x="760" y="520" width="430" height="250" rx="18" fill="#DCE9FF"/>
+    <path d="M790 650H1160" stroke="#4A8CEC" stroke-width="20"/>
+    <text x="830" y="615" fill="#0E4AA6" font-family="Arial, sans-serif" font-size="44" font-weight="700">CLEAN SCENE</text>
+    <text x="855" y="680" fill="#0E4AA6" font-family="Arial, sans-serif" font-size="44" font-weight="700">SERVICES</text>
+  </g>
+</svg>

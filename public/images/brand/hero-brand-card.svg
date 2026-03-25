@@ -1,0 +1,16 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F8E7AF"/>
+  <path d="M0 820L250 570H440L130 900H0V820Z" fill="#9B1022"/>
+  <path d="M1200 40L920 320H760L1090 0H1200V40Z" fill="#9B1022"/>
+  <path d="M1080 900L860 680H980L1200 900H1080Z" fill="#D6D7DC"/>
+  <path d="M120 0L380 240H270L0 0H120Z" fill="#D6D7DC"/>
+  <path d="M920 110L1090 0H1160L950 150L920 110Z" fill="#D4A437"/>
+  <path d="M250 670L90 830L0 830L210 620L250 670Z" fill="#D4A437"/>
+  <path d="M360 170L430 240L370 300L300 230L360 170Z" stroke="#9B1022" stroke-width="22"/>
+  <path d="M850 610L930 690L860 760L780 680L850 610Z" stroke="#9B1022" stroke-width="22"/>
+  <text x="170" y="360" fill="#8B0E20" font-family="Georgia, serif" font-size="126" font-style="italic" font-weight="700">Z</text>
+  <text x="235" y="358" fill="#8B0E20" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="106" font-weight="700" letter-spacing="2">CREATION</text>
+  <text x="232" y="470" fill="#5B251C" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="72" font-weight="700" letter-spacing="3">BRINGS YOUR</text>
+  <text x="160" y="560" fill="#5B251C" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" font-weight="700" letter-spacing="1">BUSINESS CARDS &amp;</text>
+  <text x="300" y="650" fill="#5B251C" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="88" font-weight="700" letter-spacing="1">FLYERS TO LIFE</text>
+</svg>
