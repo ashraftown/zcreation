@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Zcreation | Business Cards, Flyers, Posters & Custom Design",
+  title: "Zcreation | Business Cards, Flyers, Posters & Printing",
   description:
-    "Zcreation creates bold business cards, flyers, thank-you cards, posters, and custom promotional designs with WhatsApp, phone, and email contact options.",
+    "Zcreation is a print-focused business for business cards, flyers, thank-you cards, posters, and related printed materials, with optional design add-ons.",
   openGraph: {
-    title: "Zcreation | Business Cards, Flyers, Posters & Custom Design",
+    title: "Zcreation | Business Cards, Flyers, Posters & Printing",
     description:
-      "Custom print-ready promotional materials for businesses and personal brands.",
+      "Print-focused promotional materials with optional design support before production.",
     images: [
       {
         url: "/images/brand/hero-brand-card.svg",

@@ -7,7 +7,7 @@ export function AboutProcess() {
       <div className="about-copy">
         <SectionHeading
           eyebrow="About Zcreation"
-          title="Custom cards, flyers, and poster work shaped around your idea"
+          title="Print-focused service with optional design support when needed"
           description={siteContent.about}
         />
       </div>
