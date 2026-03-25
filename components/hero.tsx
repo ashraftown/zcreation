@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { navItems, siteContent } from "@/lib/site-content";
 
@@ -9,6 +12,7 @@ const heroStats = [
 ];
 
 export function Hero() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { brand, contact, hero, portfolioPreview } = siteContent;
 
   return (
@@ -23,9 +27,24 @@ export function Hero() {
             <small>{brand.tagline}</small>
           </span>
         </a>
-        <nav className="site-nav" aria-label="Primary">
+        <button
+          type="button"
+          className={`menu-toggle ${isMenuOpen ? "is-open" : ""}`}
+          aria-expanded={isMenuOpen}
+          aria-controls="site-nav"
+          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+          onClick={() => setIsMenuOpen((current) => !current)}
+        >
+          <span>Menu</span>
+          <span className="menu-toggle-icon" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </span>
+        </button>
+        <nav id="site-nav" className={`site-nav ${isMenuOpen ? "is-open" : ""}`} aria-label="Primary">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href}>
+            <a key={item.href} href={item.href} onClick={() => setIsMenuOpen(false)}>
               {item.label}
             </a>
           ))}
