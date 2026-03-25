@@ -30,6 +30,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
   color: var(--text);
   font-family: var(--font-body);
   background:
@@ -186,6 +187,7 @@ img {
 
 .hero-copy {
   padding-right: 1rem;
+  min-width: 0;
 }
 
 .hero-kicker,
@@ -266,6 +268,7 @@ img {
   padding: 0.9rem 1.35rem;
   border: 1px solid transparent;
   border-radius: 999px;
+  text-align: center;
   font-size: 0.95rem;
   font-weight: 800;
   transition:
@@ -658,6 +661,11 @@ img {
 }
 
 @media (max-width: 1100px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.9fr);
+    gap: 2.2rem;
+  }
+
   .services-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -673,7 +681,6 @@ img {
 }
 
 @media (max-width: 900px) {
-  .topbar,
   .about-section,
   .contact-section,
   .site-footer,
@@ -683,18 +690,54 @@ img {
 
   .topbar {
     display: grid;
+    justify-items: start;
+    padding-bottom: 2rem;
   }
 
   .hero-copy {
     padding-right: 0;
   }
 
+  .brand-lockup strong {
+    font-size: 1.7rem;
+  }
+
+  .brand-lockup small {
+    max-width: 100%;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav a {
+    white-space: nowrap;
+  }
+
+  .hero-copy h1 {
+    max-width: 12ch;
+    font-size: clamp(3.5rem, 11vw, 5.8rem);
+  }
+
   .hero-visual {
     min-height: 35rem;
   }
 
-  .site-nav {
-    justify-content: flex-start;
+  .section-heading h2 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+
+  .portfolio-card strong,
+  .process-step h3 {
+    font-size: 1.7rem;
   }
 
   .services-grid {
@@ -709,8 +752,51 @@ img {
     width: min(100% - 1rem, 1200px);
   }
 
+  .hero-section {
+    padding-bottom: 4rem;
+  }
+
+  .topbar {
+    gap: 0.85rem;
+    padding-top: 0.75rem;
+  }
+
+  .brand-lockup {
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .brand-mark {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .brand-lockup strong {
+    font-size: 1.45rem;
+  }
+
+  .brand-lockup small {
+    font-size: 0.84rem;
+  }
+
+  .site-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+    padding: 0.45rem;
+    overflow: visible;
+  }
+
+  .site-nav a {
+    padding: 0.7rem 0.75rem;
+    text-align: center;
+    white-space: normal;
+  }
+
   .hero-copy h1 {
     font-size: clamp(3.2rem, 16vw, 5.1rem);
+    max-width: none;
   }
 
   .hero-proof-strip,
@@ -719,28 +805,74 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .hero-description,
+  .section-description {
+    font-size: 0.98rem;
+  }
+
+  .cta-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .hero-visual {
-    min-height: 28rem;
+    min-height: 24rem;
   }
 
   .visual-frame-large {
-    width: min(100%, 18rem);
+    width: min(100%, 15rem);
   }
 
   .visual-frame-floating {
     left: 0;
-    width: min(74%, 13rem);
+    bottom: 4.5rem;
+    width: min(72%, 11rem);
   }
 
   .hero-contact-card {
     right: 0;
-    width: min(100%, 14rem);
+    width: min(100%, 12.5rem);
+    padding: 1rem;
   }
 
   .portfolio-card-square,
   .portfolio-card-wide,
   .portfolio-card-tall {
     grid-column: auto;
+  }
+
+  .portfolio-card figcaption {
+    padding: 1rem;
+  }
+
+  .portfolio-card strong {
+    font-size: 1.5rem;
+  }
+
+  .process-panel,
+  .contact-form {
+    padding: 1.15rem;
+    border-radius: 1.5rem;
+  }
+
+  .process-step {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .process-index {
+    grid-row: auto;
+    font-size: 2rem;
+  }
+
+  .contact-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .button,
